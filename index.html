@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ticket-Booking</title>
+
+        <!-- tailwind and daisy UI links -->
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- font awesome link -->
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <style>
+        .rounded {
+            border-radius: 50%;
+        }
+    </style>
+    <body class="w-4/5 mx-auto my-20">
+        
+        <!-- navbar section-->
+
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div
+                            tabindex="0"
+                            role="button"
+                            class="btn btn-ghost lg:hidden"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16"
+                                />
+                            </svg>
+                        </div>
+                        <ul
+                            tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                        >
+                            <li><a>Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><a>Search</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-2xl font-extrabold cursor-pointer"
+                        >QuickBooking</a
+                    >
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn text-[#1DD100]"
+                        >Bus <img src="/images/bus-icon.png" alt="" />
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- hero section -->
+
+        <div
+            class="hero h-[500px] rounded-xl mt-8"
+            style="background-image: url(images/banner.png)"
+        >
+            <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-4xl font-bold">
+                        End-to-End Travel with
+                        <span class="text-[#1DD100]">QuickBooking</span>
+                    </h1>
+                    <p class="mb-5">
+                        Don't stress about booking tickets. We're here to assist
+                        you and ensure your travel is smooth and enjoyable. Your
+                        only focus should be on soaking in the beauty of nature.
+                    </p>
+                    <button class="btn bg-[#1DD100] border-none text-[18px]">
+                        Buy Ticket
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- counter section-->
+
+        <div>
+            <div class="flex gap-12 justify-center items-center -mt-12">
+                <div class="border-b-4 rounded-2xl border-[#1DD100] px-2 py-4  flex gap-2 justify-center items-center bg-[#fff]">
+                    <img class="h-[48px] w-[48px]" src="/images/people.png" alt="" />
+                    <div>
+                        <h3 class="text-3xl font-bold">500K+</h3>
+                        <p>Registered users</p>
+                    </div>
+                </div>
+                <div class="border-b-4 rounded-2xl border-[#1DD100] px-2 py-4  flex gap-2 justify-center items-center bg-[#fff]">
+                    <img class="h-[48px] w-[48px]" src="/images/ticket-cupon.png" alt="" />
+                    <div>
+                        <h3 class="text-3xl font-bold">1.7 lacks</h3>
+                        <p>Tickets sold</p>
+                    </div>
+                </div>
+                <div class="border-b-4 rounded-2xl border-[#1DD100] px-2 py-4  flex gap-2 justify-center items-center bg-[#fff]">
+                    <img class="h-[48px] w-[48px]" src="/images/people.png" alt="" />
+                    <div>
+                        <h3 class="text-3xl font-bold">80K+</h3>
+                        <p>Rental partners</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Offer section -->
+
+    </body>
+</html>
